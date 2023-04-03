@@ -1,1 +1,25 @@
-ol {color: red;}
+.main-title, .page-link {
+    text-align: center;
+    display: block;
+}
+
+.main-title {
+    font-family: "Cambria, Cochin", "Georgia, Times", "Times New Roman", serif;
+    font-size: 40px;
+}
+
+.page-link.first {
+    color: hsl(32, 67%, 50%);
+}
+
+.page-link.second {
+    color: yellow;
+}
+
+.page-link.third {
+    color: hsl(7, 96%, 50%)
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.37);
+}
